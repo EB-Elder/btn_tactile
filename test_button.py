@@ -13,8 +13,8 @@ while(1):
 	if GPIO.input(12):
 			print("input 1 OK")
 	if GPIO.input(5):
-			print("input 2 OK")
-	if GPIO.input(3):
 			print("input 3 OK")
-	if GPIO.input(7):
+	if GPIO.input(3):
 			print("input 4 OK")
+	if GPIO.input(7):
+			print("input 2 OK")
